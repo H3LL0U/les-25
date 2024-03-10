@@ -14,19 +14,22 @@
 
 </head>
 <body>
-    
-    <div class="container mt-5" >
+<div class="container mt-5">
+
+
+
+    <div class="calculator-container">
 
         
         
 
-        <div class="card bg-dark">
+        <div class="card bg-dark pb-5">
             <div class="row mx-auto">
-                <div class="col-3">
-                    <form action="">
-                        <input type="text" id="berekening" oninput="validateInput(event)" title="Please enter numbers and the symbols *, -, +, / only" required class="mt-5">
-                    </form>
-                </div>
+                
+                <form action="" class="col-12">
+                    <input type="text" id="berekening" oninput="validateInput(event)" title="Please enter numbers and the symbols *, -, +, / only" required class="mt-5">
+                </form>
+                
             </div>
             <div class="row mx-auto">
                 <div class="col">
@@ -37,6 +40,9 @@
                 </div>
                 <div class="col">
                 <button class="btn bg-white" id="cal-3">3</button>
+                </div>
+                <div class="col">
+                    <button class="btn bg-white" id="cal-AC">AC</button>
                 </div>
             </div>
             <div class="row mx-auto">
@@ -49,6 +55,10 @@
                 <div class="col">
                 <button class="btn bg-white" id="cal-6">6</button>
                 </div>
+                <div class="col">
+                    <button class="btn bg-white" id="cal-+">+</button>
+
+                </div>
             </div>
             <div class="row mx-auto">
                 <div class="col">
@@ -60,11 +70,24 @@
                 <div class="col">
                 <button class="btn bg-white" id="cal-9">9</button>
                 </div>
+                <div class="col">
+                    <button class="btn bg-white" id="cal--">-</button>
+                </div>
             </div>
             <div class="row mx-auto">
-                <div class="col-3">
+                <div class="col">
+                    <button class="btn bg-white" id="cal-=">=</button>
+                </div>
+                <div class="col">
+                    
                 <button class="btn bg-white" id="cal-0">0</button>
                 
+                </div>
+                <div class="col">
+                    <button class="btn bg-white" id="cal-*">*</button>
+                </div>
+                <div class="col">
+                    <button class="btn bg-white" id="cal-/">/</button>
                 </div>
             </div>
             
@@ -72,5 +95,6 @@
     </div>
     
     </div>
+</div>
 </body>
 </html>

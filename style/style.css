@@ -1,28 +1,46 @@
 .btn{
     display: flex;
-    width: 15vw;
+    width: 13vw;
     margin: 0.5rem;
     
-    height: 15vw;
+    height: 13vw;
     max-width: 100px;
     max-height: 100px;
+    
     justify-content: center;
     align-items: center;
     font-size: 6vw;
     
 }
-
-.container{
-
-    width: 50%;
-    min-width: 500px;
+.calculator-container{
+    justify-content: center; 
+    display: flex;
 }
+
 #berekening{
-    font-size: 50px;
-    width: 500%;
+    font-size: 40px;
+    border-radius: 25px;
+    border: solid grey 3px
+}
+.card{
+    border: solid black 5px;
+    max-width: fit-content;
+    border-radius: 50px;
+
+}
+@media only screen and (min-width:600px) {
+    .btn{
+        font-size: 40px;
+        max-width: 70px;
+        max-height: 70px;
+    }
 }
 @media only screen and (min-width:800px) {
     .btn{
         font-size: 40px;
+        max-width: 100px;
+        max-height: 100px;
     }
+
+    
 }
