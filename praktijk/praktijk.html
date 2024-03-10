@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LES 25 PRAKTIJK</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $("#send").click( function(){
+                var naam = $("#name").val()
+                var film = $("#film").val()
+                var boek = $("#boek").val()
+                
+                window.alert('Ik ben ' + naam + ' en mijn favorite boek is '+ boek+ ' en mijn favorite film is '+film)
+            })
+        });
+        </script>
+        <noscript>Voor de goede ervaring met onze website zet de javascript aan</noscript>
+    </head>
+<body>
+    
+    <div class="container">
+    <form class="button" action="">
+        <label for="name">Jouw naam</label>
+        <input type="text" name="name" id="name">
+
+        
+        <label for="film">Favorite film</label>
+        <input type="text" name="film" id="film">
+        
+        <label for="boek">Favorite boek</label>
+        <input type="text" name="boek" id="boek">
+
+        
+        
+
+
+        <button type="submit" id="send"> Verzenden </button>
+
+    </form>
+    </div>
+</body>
+</html>
+

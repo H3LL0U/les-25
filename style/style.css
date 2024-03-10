@@ -1,0 +1,28 @@
+.btn{
+    display: flex;
+    width: 15vw;
+    margin: 0.5rem;
+    
+    height: 15vw;
+    max-width: 100px;
+    max-height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    
+}
+
+.container{
+
+    width: 50%;
+    min-width: 500px;
+}
+#berekening{
+    font-size: 50px;
+    width: 500%;
+}
+@media only screen and (min-width:800px) {
+    .btn{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,15 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    margin: 25px;
+    flex-direction: column;
+}
+form{
+    display: inherit;
+    flex-direction: column;
+
+}
