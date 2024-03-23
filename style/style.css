@@ -1,9 +1,9 @@
 .btn{
     display: flex;
-    width: 13vw;
+    width: 11vw;
     margin: 0.5rem;
     
-    height: 13vw;
+    height: 11vw;
     max-width: 100px;
     max-height: 100px;
     
@@ -28,6 +28,44 @@
     border-radius: 50px;
 
 }
+header{
+    background-color: beige;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:auto;
+    display: block;
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-position: center top 60%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius:25px ;
+    border: #333 1px solid;
+    
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    /*position: fixed; */ 
+    left: 0;
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px;
+}
+body{
+    background-image: url('../images/header.jpg');
+    background-position: 20%;
+}
+input{
+margin-bottom: 20px;
+}
 @media only screen and (min-width:600px) {
     .btn{
         font-size: 40px;
@@ -38,8 +76,8 @@
 @media only screen and (min-width:800px) {
     .btn{
         font-size: 40px;
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 80px;
+        max-height: 80px;
     }
 
     
